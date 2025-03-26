@@ -1,0 +1,9 @@
+# Archivos generados automáticamente
+.dart_tool/
+.idea/
+.vscode/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock  
