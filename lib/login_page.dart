@@ -127,7 +127,7 @@ class LoginPage extends StatelessWidget {
                           Navigator.pushNamed(context, '/register');
                         },
                         child: Text(
-                          'Crear cuenta',
+                          'Registrarse',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
