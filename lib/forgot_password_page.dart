@@ -23,7 +23,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
 
     setState(() => _isLoading = true);
     
-    // Simulación de envío (reemplazar con tu lógica real)
+    // Simulación de envío (reemplazar con lógica )
     await Future.delayed(const Duration(seconds: 2));
     
     if (!mounted) return;
@@ -40,7 +40,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
         title: const Text('Correo enviado'),
         icon: const Icon(Icons.mark_email_read, size: 48, color: Colors.green),
         content: const Text(
-          'Hemos enviado un enlace de recuperación a tu correo electrónico. Por favor revisa tu bandeja de entrada.',
+          'Hemos enviado un enlace de recuperación a tu correo electrónico.',
           textAlign: TextAlign.center,
         ),
         actions: [
